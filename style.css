@@ -1,0 +1,132 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+font-family: sans-serif;
+}
+.banner{
+height: 100vh;
+position: relative;
+}
+.slider{
+	width: 93%;
+	float: left;
+
+}
+.carousel-caption {
+	max-width: 500px;
+	max-height: 350px;
+	text-align: right;
+	right: 60px;
+
+	left: auto;
+	top: 160px;
+}
+.carousel-caption h1{
+	font-size: 60px;
+	text-transform: uppercase;
+}
+.carousel-caption h2{
+	text-transform: uppercase;
+}
+.carousel-caption p{
+	margin-top: 40px;
+}
+
+.side_menu{
+	height: 100%;
+	width: 7%;
+	float: right;background: #ff0000;
+	position: relative;
+	z-index: 2;
+}
+.menu_icon{
+	width: 40px;
+	margin: 25px;
+	cursor: pointer;
+}
+
+.search_icon{
+	width: 30px;
+	margin: 30px;
+	cursor: pointer;
+}
+.side_menu::after{
+	content: '';
+	height: 130px;
+	width: 1px;
+	background: #fff;
+	position: absolute;
+	left: 45px;
+	top: 200px;
+}
+
+.carousel-indicators{
+	left: 85%;
+	height: 40%;
+	width: 95px;
+	top: 55%;
+	display: block;
+	color: #fff;
+}
+.carousel-indicators li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin-left: 40px;
+background: transparent;
+border: 2px solid #fff;	
+margin-top: 15px;
+
+}
+.share{margin-top:60px;
+margin-left: 15px;
+}
+
+.share .fa{
+	margin-right: 12px;
+
+}
+
+.top_bar{
+
+	position: absolute;
+	max-height: 30px 50px;
+	z-index: 2;
+
+}
+.top_bar img{
+	height: 30px;
+	cursor: pointer;
+}
+.top_bar ul { 
+display: inline-flex;
+}
+.top_bar ul li{ 
+list-style: none;
+margin: 15px 20px;
+}
+.top_bar ul li a{ 
+color: #fff;
+display: block;
+padding-top: 5px;
+
+}
+.social_icons{
+	top:35%;
+	left:5%;
+	position: absolute;
+	z-index: 2;
+
+}
+.social_icons ul li{
+	list-style: none;
+	max-height: 10px 0;
+	font-size: 20px;
+
+}
+.social_icons ul li a{
+	color: #fff;
+}
